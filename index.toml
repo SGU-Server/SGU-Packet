@@ -121,6 +121,11 @@ hash = "fbe51395401ce68d9933a65fbcb4ed8cda82ac88d4afd79a5740116114d15949"
 metafile = true
 
 [[files]]
+file = "mods/subtick.pw.toml"
+hash = "2c6a59bd27999be2148b70c591cc7e6b40ba3417f5acbd74f814a24a82a5e7e6"
+metafile = true
+
+[[files]]
 file = "mods/syncmatica.pw.toml"
 hash = "4068012f236c56e62f4de24e17c922048d2a5d44444c6d848d20990af44511ec"
 metafile = true
