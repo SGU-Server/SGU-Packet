@@ -76,6 +76,11 @@ hash = "bb3966260841112fc0fc3ce954531e39455b4918b6846c8f58ea7161605cb157"
 metafile = true
 
 [[files]]
+file = "mods/gca.pw.toml"
+hash = "7ceb1be2194a97d686b0ef42cd12b7857a0fd09a2b32553af3dc873af06c893f"
+metafile = true
+
+[[files]]
 file = "mods/let-me-click-and-send-for-server.pw.toml"
 hash = "196e4b49f3192b42f53f45829a6903aeb105cdea4e40039da48265ef9a32a233"
 metafile = true
