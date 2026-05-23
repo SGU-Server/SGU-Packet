@@ -1,0 +1,126 @@
+hash-format = "sha256"
+
+[[files]]
+file = ".github/ISSUE_TEMPLATE/bug_report.yml"
+hash = "01844b4431de39096be0d95b3f4e73b65e97b63ff92b801f179166eb4cd76c1f"
+
+[[files]]
+file = ".github/ISSUE_TEMPLATE/feature_request.yml"
+hash = "7cd7e9ac13716ecfab5179154fd94b1c1dcbc1880c693095ec248ef4f1c561de"
+
+[[files]]
+file = ".github/ISSUE_TEMPLATE/question.yml"
+hash = "4ea81804560a947090d853ea1fc8d4a6c9f5cd415e2cca745ef7d6882fdf3361"
+
+[[files]]
+file = ".github/workflows/build.yml"
+hash = "a9ff9ecd4272f34ca4374635df7b14d35f8cb0fd4eeff5f309ee62559e9386a9"
+
+[[files]]
+file = "LICENSE"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "2d3b1944bc7916b8e57460d7eb342c73566e15393ddb6483c71f2336bab6200c"
+metafile = true
+
+[[files]]
+file = "mods/carpet-ams-addition.pw.toml"
+hash = "edc1ac731096d18efdba5545cc38ac4aef1fe65a598b979df73bc9590b345771"
+metafile = true
+
+[[files]]
+file = "mods/carpet-igny-addition.pw.toml"
+hash = "041e4c571fec09251175a00a1aef643df155849adb0ba30bcf815e98c7b0fee2"
+metafile = true
+
+[[files]]
+file = "mods/carpet-lms-addition.pw.toml"
+hash = "a34d5e9106e9e6336c2e98e5180dd9dd2259316799f43ba220864b07033d031f"
+metafile = true
+
+[[files]]
+file = "mods/carpet-org-addition.pw.toml"
+hash = "68751cc1277e9e1949f1dd274e727ef690ab49b250ee07a4cf665f1c5cf042a6"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "4e0d189c19e5cb9a2c0abdf7545051446b5620c81281c4598fc598d3f8e3cbb8"
+metafile = true
+
+[[files]]
+file = "mods/carpet_cuo_addition.pw.toml"
+hash = "97e985c4470792774d8a2b95d4c8608272b0064eb3bad945892ff64ee04b4a62"
+metafile = true
+
+[[files]]
+file = "mods/carpetgui.pw.toml"
+hash = "201a5040beb2c2e6d643722b2a8af7bfc5bce69bf6504f7b1e8adad917477346"
+metafile = true
+
+[[files]]
+file = "mods/crystalcarpetaddition.pw.toml"
+hash = "3744dcf43e40c0ec86f101a22c35aebe24b9159393022c16f6504cad59e54b15"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
+metafile = true
+
+[[files]]
+file = "mods/fabricproxy-lite.pw.toml"
+hash = "bb3966260841112fc0fc3ce954531e39455b4918b6846c8f58ea7161605cb157"
+metafile = true
+
+[[files]]
+file = "mods/let-me-click-and-send-for-server.pw.toml"
+hash = "196e4b49f3192b42f53f45829a6903aeb105cdea4e40039da48265ef9a32a233"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "ceed226223967ea3e7017aad327a069250c289c834766e1a3cd27c8d0ad52de1"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "2df6e71ac01b886ff496669c5cd6d8c89ca358c655ca4983487d09e6b7d2728c"
+metafile = true
+
+[[files]]
+file = "mods/pca-protocol.pw.toml"
+hash = "fa974f7ce67070c159132aa0058477dbdf5969e1b9a4cfbb5ba29806857ac4b7"
+metafile = true
+
+[[files]]
+file = "mods/quickshulker.pw.toml"
+hash = "daf79642aacfc1a9f1c7f6abb204bd290a3aa607faa2e8927c458d2f612f88f0"
+metafile = true
+
+[[files]]
+file = "mods/rems-carpet-addition.pw.toml"
+hash = "c13fd721975c59389ed5ced7af755d8f8d922accf97e67ba6b2c27078a406bd0"
+metafile = true
+
+[[files]]
+file = "mods/servux.pw.toml"
+hash = "b4a8602b8d5c7da3fa80c6820f8b233a51e39af2b0b85019e301bbd8a70c172c"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "fbe51395401ce68d9933a65fbcb4ed8cda82ac88d4afd79a5740116114d15949"
+metafile = true
+
+[[files]]
+file = "mods/syncmatica.pw.toml"
+hash = "4068012f236c56e62f4de24e17c922048d2a5d44444c6d848d20990af44511ec"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "51a17d028bf0d35c66d269185a63ea4adc968f60727454d0f8ed3ef2138f8612"
+metafile = true

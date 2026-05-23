@@ -1,0 +1,13 @@
+name = "Carpet_CuO_Addition"
+filename = "carpet_cuo_addition-v1.9.1-mc26.1.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/fgruPimf/versions/dL2SMziS/carpet_cuo_addition-v1.9.1-mc26.1.2.jar"
+hash-format = "sha512"
+hash = "c508ed0b6d1916af921259bf9ab728e3b2670f7a310aaca751baa6d1971d91d7ef139085b7eab8572e0bb1e7481da6c23c8bf876c33fd018821b4aa2b3a46739"
+
+[update]
+[update.modrinth]
+mod-id = "fgruPimf"
+version = "dL2SMziS"

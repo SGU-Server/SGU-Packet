@@ -1,0 +1,13 @@
+name = "Let Me Click And Send for Server"
+filename = "LetMeClickAndSendForServer-v1.0.3-mc26.1.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/HtZfkfG8/versions/VJdSU0wR/LetMeClickAndSendForServer-v1.0.3-mc26.1.2.jar"
+hash-format = "sha512"
+hash = "4a49c604177c425bb1276a0e5aae07951b7a23c10397818d816d04fef1622d697fe0f10b700c3ee00a1df2de7774f340d92de84492657e5a281c1acb04286aff"
+
+[update]
+[update.modrinth]
+mod-id = "HtZfkfG8"
+version = "VJdSU0wR"

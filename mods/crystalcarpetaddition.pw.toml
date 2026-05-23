@@ -1,0 +1,13 @@
+name = "Crystal Carpet Addition"
+filename = "CrystalCarpetAddition-v1.14.0+mc26.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/G26sLP13/versions/O5IBQnuM/CrystalCarpetAddition-v1.14.0%2Bmc26.1.2.jar"
+hash-format = "sha512"
+hash = "4377aa81e6e5c8a00604e5650822f3e9482d853bdcf68151a33de5f8954963b32bfaec2d9b1d89648518e4e2207745dc4877286e043a90287cd86e91a39b6395"
+
+[update]
+[update.modrinth]
+mod-id = "G26sLP13"
+version = "O5IBQnuM"

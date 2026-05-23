@@ -1,0 +1,68 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      version: ${{ steps.vars.outputs.version }}
+      mc: ${{ steps.vars.outputs.mc }}
+      pack_name: ${{ steps.vars.outputs.pack_name }}
+      pack_slug: ${{ steps.vars.outputs.pack_slug }}
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add Go bin to PATH
+        run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      - name: Read versions
+        id: vars
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          VERSION=$(awk -F'"' '$1 ~ /version =/ {print $2; exit}' pack.toml)
+          PACK_NAME=$(awk -F'"' '$1 ~ /name =/ {print $2; exit}' pack.toml | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')
+          MC=$(awk -F'"' '$1 ~ /minecraft =/ {print $2; exit}' pack.toml)
+          PACK_SLUG=$(echo "$PACK_NAME" | tr '[:space:]' '-' | tr -cd '[:alnum:]_.-' | sed -E 's/-+/-/g; s/^-+//; s/-+$//')
+
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "pack_name=$PACK_NAME" >> "$GITHUB_OUTPUT"
+          echo "pack_slug=$PACK_SLUG" >> "$GITHUB_OUTPUT"
+          echo "mc=$MC" >> "$GITHUB_OUTPUT"
+
+      - name: Export pack
+        run: packwiz modrinth export
+
+      - name: Rename pack
+        id: pack_file
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SOURCE_FILE=$(ls -1 *.mrpack | head -n 1)
+          TARGET_FILE="${{ steps.vars.outputs.pack_slug }}-v${{ steps.vars.outputs.version }}-mc${{ steps.vars.outputs.mc }}-build.${{ github.run_number }}.mrpack"
+
+          mv "$SOURCE_FILE" "$TARGET_FILE"
+          echo "name=$TARGET_FILE" >> "$GITHUB_OUTPUT"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: ${{ steps.pack_file.outputs.name }}
+          archive: false

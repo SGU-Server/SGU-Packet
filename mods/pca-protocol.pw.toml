@@ -1,0 +1,13 @@
+name = "pca-protocol"
+filename = "pca-protocol-v0.3.14-mc26.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DTjVkI5f/versions/8CpS8fVt/pca-protocol-v0.3.14-mc26.1.1.jar"
+hash-format = "sha512"
+hash = "90a63cc2784b46565c73380227633ef72a9ae85dbc10ee44c48e136e270350ac7fda5debef3140fba962ca7a6e29ddb32779fa2e665b3e4933c148f109c54cc6"
+
+[update]
+[update.modrinth]
+mod-id = "DTjVkI5f"
+version = "8CpS8fVt"

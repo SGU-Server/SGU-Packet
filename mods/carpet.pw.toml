@@ -1,0 +1,13 @@
+name = "Carpet"
+filename = "fabric-carpet-26.1+v260401.jar"
+side = "both"
+
+[download]
+url = "https://masa.dy.fi/maven/carpet/fabric-carpet/26.1%2Bv260401/fabric-carpet-26.1%2Bv260401.jar"
+hash-format = "sha256"
+hash = "d4edad67819b1d9549a7fc493eb1bdec3d46ba7f4720530ad0d53447c6ebaddd"
+
+[update]
+[update.modrinth]
+mod-id = "TQTTVgYE"
+version = "6FpFtZPE"

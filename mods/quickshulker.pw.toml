@@ -1,0 +1,8 @@
+name = "quickshulker"
+filename = "quickshulker-3.0.1-26.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MoRanpcy/quickshulker/releases/download/3.0.1-26.1/quickshulker-3.0.1-26.1.jar"
+hash-format = "sha256"
+hash = "4e00fbde53eea4e13b25fcce56a80d398bc217f54e6f03fe39348c33fa6ec112"

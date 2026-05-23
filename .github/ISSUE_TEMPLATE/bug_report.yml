@@ -1,0 +1,107 @@
+name: Bug Report
+description: Report a problem with SGU Packet
+title: "[Bug] "
+labels: ["bug", "status:triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: |
+        Describe what happened.
+        If possible, include screenshots or a short video.
+      placeholder: Tell us what you observed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Clear steps so we can reproduce the issue.
+      placeholder: |
+        1. Open Prism Launcher / MultiMC
+        2. Launch SGU Packet profile
+        3. Join world/server
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: What actually happened?
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: |
+        Please upload logs from `logs/latest.log` or `crash-reports/*`.
+        Use attachment or paste service links (pastebin / mclo.gs), do not paste huge logs directly.
+      placeholder: https://mclo.gs/xxxxxxx
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      placeholder: 26.1.2
+    validations:
+      required: true
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: SGU Packet version
+      placeholder: 0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: launcher
+    attributes:
+      label: Launcher and version
+      description: Prism Launcher / MultiMC / HMCL / PCL2 / official launcher, etc.
+      placeholder: Prism Launcher 9.2
+
+  - type: input
+    id: java-version
+    attributes:
+      label: Java version
+      placeholder: Zulu Java 25.0.1
+
+  - type: textarea
+    id: customizations
+    attributes:
+      label: Local changes
+      description: |
+        List any local changes:
+        - extra/removed mods
+        - changed config
+        - custom shaders/resource packs
+      placeholder: Added xx mod, disabled yy shader.
+
+  - type: textarea
+    id: other-information
+    attributes:
+      label: Other information
+      description: Anything else that can help troubleshooting.
+
+  - type: checkboxes
+    id: check-list
+    attributes:
+      label: Check list
+      options:
+        - label: I confirmed this issue still happens on the latest Lemon Packet release.
+          required: true
+        - label: I tested without extra local mods/config changes when possible.
+          required: true
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
